@@ -1,0 +1,17 @@
+# Local crawl/cache artifacts
+*.html
+ddg-images.json
+*sources.json
+candidate-sources.json
+target-sources.json
+
+# Rejected or temporary sticker batches
+mashu/assets/stickers/rejected/
+mashu/assets/stickers/collected/
+mashu/assets/stickers/*preview*.jpg
+
+# Python/runtime noise
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
