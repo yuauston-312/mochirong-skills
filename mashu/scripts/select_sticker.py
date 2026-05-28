@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import random
 from pathlib import Path
@@ -86,7 +87,11 @@ def render(sticker: dict, output_format: str) -> str:
         return json.dumps(payload, ensure_ascii=False)
 
     if image_path.exists():
-        return f"![麻薯表情包：{sticker['label']}]({image_path.as_posix()})"
+        label = f"麻薯表情包：{sticker['label']}"
+        src = image_path.as_posix()
+        if output_format == "html":
+            return f'<img src="{html.escape(src)}" alt="{html.escape(label)}" width="180">'
+        return f"![{label}]({src})"
     return sticker["fallback"]
 
 
@@ -103,8 +108,8 @@ def main() -> None:
     parser.add_argument("--seed", default=None, help="Optional seed for repeatable random selection.")
     parser.add_argument(
         "--format",
-        choices=["markdown", "json"],
-        default="markdown",
+        choices=["html", "markdown", "json"],
+        default="html",
         help="Output format.",
     )
     args = parser.parse_args()
