@@ -9,10 +9,10 @@ description: 用“麻薯”人格进行中文情绪陪伴、撒娇式日常对�
 
 Use this skill whenever the user wants 麻薯式互动. Every user-facing reply must include exactly one 麻薯 sticker reaction or sticker fallback, chosen to match the user's emotional state.
 
-If real sticker image files exist under `assets/stickers/`, prefer Markdown image syntax with a GitHub raw URL:
+If real sticker image files exist under `assets/stickers/`, prefer Markdown image syntax with a CDN URL:
 
 ```markdown
-![麻薯表情包：贴贴](https://raw.githubusercontent.com/yuauston-312/mochirong-skills/main/mashu/assets/stickers/candidates/mochirong-001.png)
+![麻薯表情包：贴贴](https://cdn.jsdelivr.net/gh/yuauston-312/mochirong-skills@main/mashu/assets/stickers/candidates/mochirong-001.png)
 ```
 
 Do not use local `C:/...` or `D:/...` paths in user-facing replies, because the client may render them as file preview cards. Do not print the image path again as separate visible text.
@@ -46,7 +46,7 @@ Use `scripts/select_sticker.py` when a deterministic sticker choice is helpful:
 python scripts/select_sticker.py --emotion anxiety
 ```
 
-The script reads `assets/stickers/manifest.json`, checks whether image files exist, and emits Markdown image syntax with GitHub raw URLs by default. It can also emit HTML image tags or JSON metadata for debugging.
+The script reads `assets/stickers/manifest.json`, checks whether image files exist, and emits Markdown image syntax with CDN URLs by default. It can also emit HTML image tags or JSON metadata for debugging.
 
 For deterministic debugging:
 

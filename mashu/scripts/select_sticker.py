@@ -14,8 +14,8 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "assets" / "stickers" / "manifest.json"
 STICKER_DIR = ROOT / "assets" / "stickers"
 RAW_BASE_URL = (
-    "https://raw.githubusercontent.com/"
-    "yuauston-312/mochirong-skills/main/mashu/assets/stickers"
+    "https://cdn.jsdelivr.net/gh/"
+    "yuauston-312/mochirong-skills@main/mashu/assets/stickers"
 )
 
 
