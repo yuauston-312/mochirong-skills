@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import random
 from pathlib import Path
 
 
@@ -18,9 +19,23 @@ def load_stickers() -> list[dict]:
         return json.load(handle)["stickers"]
 
 
-def choose_sticker(emotion: str, intent: str | None = None) -> dict:
+def choose_from(stickers: list[dict], strategy: str, rng: random.Random) -> dict:
+    existing = [sticker for sticker in stickers if (STICKER_DIR / sticker["file"]).exists()]
+    pool = existing or stickers
+    if strategy == "first":
+        return pool[0]
+    return rng.choice(pool)
+
+
+def choose_sticker(
+    emotion: str,
+    intent: str | None = None,
+    strategy: str = "random",
+    seed: str | None = None,
+) -> dict:
     emotion = emotion.lower().strip()
     stickers = load_stickers()
+    rng = random.Random(seed)
 
     primary_matches = [
         sticker
@@ -28,11 +43,8 @@ def choose_sticker(emotion: str, intent: str | None = None) -> dict:
         if sticker.get("emotion", [None])[0] == emotion
         and (intent is None or intent == sticker.get("intent"))
     ]
-    for sticker in primary_matches:
-        if (STICKER_DIR / sticker["file"]).exists():
-            return sticker
     if primary_matches:
-        return primary_matches[0]
+        return choose_from(primary_matches, strategy, rng)
 
     secondary_matches = [
         sticker
@@ -40,39 +52,26 @@ def choose_sticker(emotion: str, intent: str | None = None) -> dict:
         if emotion in sticker.get("emotion", [])
         and (intent is None or intent == sticker.get("intent"))
     ]
-    for sticker in secondary_matches:
-        if (STICKER_DIR / sticker["file"]).exists():
-            return sticker
     if secondary_matches:
-        return secondary_matches[0]
+        return choose_from(secondary_matches, strategy, rng)
 
     primary_matches = [
         sticker for sticker in stickers if sticker.get("emotion", [None])[0] == emotion
     ]
-    for sticker in primary_matches:
-        if (STICKER_DIR / sticker["file"]).exists():
-            return sticker
     if primary_matches:
-        return primary_matches[0]
+        return choose_from(primary_matches, strategy, rng)
 
     secondary_matches = [
         sticker for sticker in stickers if emotion in sticker.get("emotion", [])
     ]
-    for sticker in secondary_matches:
-        if (STICKER_DIR / sticker["file"]).exists():
-            return sticker
     if secondary_matches:
-        return secondary_matches[0]
+        return choose_from(secondary_matches, strategy, rng)
 
-    for sticker in stickers:
-        if "neutral" in sticker.get("emotion", []) and (STICKER_DIR / sticker["file"]).exists():
-            return sticker
+    neutral_matches = [sticker for sticker in stickers if "neutral" in sticker.get("emotion", [])]
+    if neutral_matches:
+        return choose_from(neutral_matches, strategy, rng)
 
-    for sticker in stickers:
-        if "neutral" in sticker.get("emotion", []):
-            return sticker
-
-    return stickers[0]
+    return choose_from(stickers, strategy, rng)
 
 
 def render(sticker: dict, output_format: str) -> str:
@@ -96,6 +95,13 @@ def main() -> None:
     parser.add_argument("--emotion", default="neutral", help="Detected user emotion.")
     parser.add_argument("--intent", default=None, help="Optional response intent.")
     parser.add_argument(
+        "--strategy",
+        choices=["random", "first"],
+        default="random",
+        help="Selection strategy. Use first for deterministic debugging.",
+    )
+    parser.add_argument("--seed", default=None, help="Optional seed for repeatable random selection.")
+    parser.add_argument(
         "--format",
         choices=["markdown", "json"],
         default="markdown",
@@ -103,7 +109,7 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    print(render(choose_sticker(args.emotion, args.intent), args.format))
+    print(render(choose_sticker(args.emotion, args.intent, args.strategy, args.seed), args.format))
 
 
 if __name__ == "__main__":
