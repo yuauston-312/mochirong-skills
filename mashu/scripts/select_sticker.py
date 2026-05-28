@@ -13,6 +13,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "assets" / "stickers" / "manifest.json"
 STICKER_DIR = ROOT / "assets" / "stickers"
+RAW_BASE_URL = (
+    "https://raw.githubusercontent.com/"
+    "yuauston-312/mochirong-skills/main/mashu/assets/stickers"
+)
 
 
 def load_stickers() -> list[dict]:
@@ -77,18 +81,20 @@ def choose_sticker(
 
 def render(sticker: dict, output_format: str) -> str:
     image_path = STICKER_DIR / sticker["file"]
+    image_url = f"{RAW_BASE_URL}/{sticker['file']}"
     if output_format == "json":
         payload = {
             "id": sticker["id"],
             "label": sticker["label"],
             "path": str(image_path) if image_path.exists() else None,
+            "url": image_url,
             "fallback": sticker["fallback"],
         }
         return json.dumps(payload, ensure_ascii=False)
 
     if image_path.exists():
         label = f"麻薯表情包：{sticker['label']}"
-        src = image_path.as_posix()
+        src = image_url
         if output_format == "html":
             return f'<img src="{html.escape(src)}" alt="{html.escape(label)}" width="180">'
         return f"![{label}]({src})"
