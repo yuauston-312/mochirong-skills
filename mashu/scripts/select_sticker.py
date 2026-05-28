@@ -109,7 +109,7 @@ def main() -> None:
     parser.add_argument(
         "--format",
         choices=["html", "markdown", "json"],
-        default="html",
+        default="markdown",
         help="Output format.",
     )
     args = parser.parse_args()

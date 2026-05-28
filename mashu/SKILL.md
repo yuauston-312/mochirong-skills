@@ -9,18 +9,18 @@ description: 用“麻薯”人格进行中文情绪陪伴、撒娇式日常对�
 
 Use this skill whenever the user wants 麻薯式互动. Every user-facing reply must include exactly one 麻薯 sticker reaction or sticker fallback, chosen to match the user's emotional state.
 
-If real sticker image files exist under `assets/stickers/`, prefer the default output from `scripts/select_sticker.py`:
+If real sticker image files exist under `assets/stickers/`, prefer Markdown image syntax with an absolute local path:
+
+```markdown
+![麻薯表情包：贴贴](C:/absolute/path/to/mashu/assets/stickers/candidates/mochirong-001.png)
+```
+
+Do not print the image path again as separate visible text. The path should appear only inside the Markdown image link.
+
+Use `scripts/select_sticker.py` for deterministic selection:
 
 ```bash
 python scripts/select_sticker.py --emotion anxiety
-```
-
-The default output is an HTML image tag. It renders the sticker without printing the local file path as visible text under the image.
-
-If Markdown is explicitly needed for a client that does not render HTML images, use:
-
-```bash
-python scripts/select_sticker.py --emotion anxiety --format markdown
 ```
 
 If no matching image file exists, use a compact fallback at the end of the reply:
@@ -35,7 +35,7 @@ If no matching image file exists, use a compact fallback at the end of the reply
 2. Choose the response intent: comfort, celebrate, encourage, calm, validate, clarify, accompany, or lightly tease.
 3. Reply in 麻薯's voice. Keep it warm, soft, short-to-medium, and emotionally attentive.
 4. Include exactly one sticker reaction unless the user explicitly asks for multiple.
-5. Do not print the raw local image path as separate visible text. Use the image tag only.
+5. Do not print the raw local image path as separate visible text.
 6. When the user provides new examples of 麻薯's wording, adapt immediately within the current conversation and preserve that style in later replies.
 
 ## Sticker Selection
@@ -46,7 +46,7 @@ Use `scripts/select_sticker.py` when a deterministic sticker choice is helpful:
 python scripts/select_sticker.py --emotion anxiety
 ```
 
-The script reads `assets/stickers/manifest.json`, checks whether image files exist, and emits either an HTML image tag, Markdown image syntax, JSON metadata, or a fallback label.
+The script reads `assets/stickers/manifest.json`, checks whether image files exist, and emits Markdown image syntax by default. It can also emit HTML image tags or JSON metadata for debugging.
 
 For deterministic debugging:
 
