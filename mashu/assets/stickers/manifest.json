@@ -8,7 +8,7 @@
       ],
       "intent": "acknowledge",
       "label": "头顶小花001",
-      "file": "candidates/麻薯-头顶小花-001.png",
+      "file": "candidates/薯门-头顶小花-001.png",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -19,7 +19,7 @@
       ],
       "intent": "warm",
       "label": "飞奔比心002",
-      "file": "candidates/麻薯-飞奔比心-002.png",
+      "file": "candidates/薯门-飞奔比心-002.png",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -29,7 +29,7 @@
       ],
       "intent": "accompany",
       "label": "困困睡觉003",
-      "file": "candidates/麻薯-困困睡觉-003.png",
+      "file": "candidates/薯门-困困睡觉-003.png",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -40,7 +40,7 @@
       ],
       "intent": "warm",
       "label": "送你玫瑰004",
-      "file": "candidates/麻薯-送你玫瑰-004.png",
+      "file": "candidates/薯门-送你玫瑰-004.png",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -50,7 +50,7 @@
       ],
       "intent": "celebrate",
       "label": "开心冲呀005",
-      "file": "candidates/麻薯-开心冲呀-005.jpg",
+      "file": "candidates/薯门-开心冲呀-005.jpg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -60,7 +60,7 @@
       ],
       "intent": "calm",
       "label": "草丛躲躲006",
-      "file": "candidates/麻薯-草丛躲躲-006.jpg",
+      "file": "candidates/薯门-草丛躲躲-006.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -71,7 +71,7 @@
       ],
       "intent": "acknowledge",
       "label": "举牌探头007",
-      "file": "candidates/麻薯-举牌探头-007.jpg",
+      "file": "candidates/薯门-举牌探头-007.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -81,7 +81,7 @@
       ],
       "intent": "accompany",
       "label": "坐着吃饭008",
-      "file": "candidates/麻薯-坐着吃饭-008.jpg",
+      "file": "candidates/薯门-坐着吃饭-008.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -91,7 +91,7 @@
       ],
       "intent": "calm",
       "label": "被角偷看009",
-      "file": "candidates/麻薯-被角偷看-009.jpg",
+      "file": "candidates/薯门-被角偷看-009.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -101,7 +101,7 @@
       ],
       "intent": "accompany",
       "label": "窗边探头010",
-      "file": "candidates/麻薯-窗边探头-010.jpg",
+      "file": "candidates/薯门-窗边探头-010.jpg",
       "fallback": "[麻薯表情包：陪你坐坐]"
     },
     {
@@ -111,7 +111,7 @@
       ],
       "intent": "accompany",
       "label": "被窝睡觉011",
-      "file": "candidates/麻薯-被窝睡觉-011.jpg",
+      "file": "candidates/薯门-被窝睡觉-011.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -121,7 +121,7 @@
       ],
       "intent": "calm",
       "label": "石头躲躲012",
-      "file": "candidates/麻薯-石头躲躲-012.png",
+      "file": "candidates/薯门-石头躲躲-012.png",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -131,7 +131,7 @@
       ],
       "intent": "comfort",
       "label": "哭到抽水013",
-      "file": "candidates/麻薯-哭到抽水-013.png",
+      "file": "candidates/薯门-哭到抽水-013.png",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -141,7 +141,7 @@
       ],
       "intent": "comfort",
       "label": "小声掉眼泪014",
-      "file": "candidates/麻薯-小声掉眼泪-014.jpg",
+      "file": "candidates/薯门-小声掉眼泪-014.jpg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -151,7 +151,7 @@
       ],
       "intent": "celebrate",
       "label": "跑跑跑015",
-      "file": "candidates/麻薯-跑跑跑-015.png",
+      "file": "candidates/薯门-跑跑跑-015.png",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -161,7 +161,7 @@
       ],
       "intent": "accompany",
       "label": "被子里瘫着016",
-      "file": "candidates/麻薯-被子里瘫着-016.png",
+      "file": "candidates/薯门-被子里瘫着-016.png",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -172,7 +172,7 @@
       ],
       "intent": "acknowledge",
       "label": "举布回应017",
-      "file": "candidates/麻薯-举布回应-017.png",
+      "file": "candidates/薯门-举布回应-017.png",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -182,7 +182,7 @@
       ],
       "intent": "acknowledge",
       "label": "铲子待命018",
-      "file": "candidates/麻薯-铲子待命-018.jpg",
+      "file": "candidates/薯门-铲子待命-018.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -193,7 +193,7 @@
       ],
       "intent": "warm",
       "label": "爱心冲刺019",
-      "file": "candidates/麻薯-爱心冲刺-019.jpg",
+      "file": "candidates/薯门-爱心冲刺-019.jpg",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -203,7 +203,7 @@
       ],
       "intent": "acknowledge",
       "label": "坐着看书020",
-      "file": "candidates/麻薯-坐着看书-020.jpg",
+      "file": "candidates/薯门-坐着看书-020.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -214,7 +214,7 @@
       ],
       "intent": "acknowledge",
       "label": "小花顶头021",
-      "file": "candidates/麻薯-小花顶头-021.jpg",
+      "file": "candidates/薯门-小花顶头-021.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -224,7 +224,7 @@
       ],
       "intent": "warm",
       "label": "玫瑰贴贴022",
-      "file": "candidates/麻薯-玫瑰贴贴-022.jpg",
+      "file": "candidates/薯门-玫瑰贴贴-022.jpg",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -234,7 +234,7 @@
       ],
       "intent": "accompany",
       "label": "枕头蹭蹭023",
-      "file": "candidates/麻薯-枕头蹭蹭-023.jpg",
+      "file": "candidates/薯门-枕头蹭蹭-023.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -244,7 +244,7 @@
       ],
       "intent": "accompany",
       "label": "被子躺平024",
-      "file": "candidates/麻薯-被子躺平-024.jpg",
+      "file": "candidates/薯门-被子躺平-024.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -254,7 +254,7 @@
       ],
       "intent": "warm",
       "label": "玫瑰近看025",
-      "file": "candidates/麻薯-玫瑰近看-025.webp",
+      "file": "candidates/薯门-玫瑰近看-025.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -264,7 +264,7 @@
       ],
       "intent": "celebrate",
       "label": "大拇指认可026",
-      "file": "candidates/麻薯-大拇指认可-026.jpg",
+      "file": "candidates/薯门-大拇指认可-026.jpg",
       "fallback": "[麻薯表情包：举小旗]"
     },
     {
@@ -274,7 +274,7 @@
       ],
       "intent": "warm",
       "label": "拿花过来027",
-      "file": "candidates/麻薯-拿花过来-027.webp",
+      "file": "candidates/薯门-拿花过来-027.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -284,7 +284,7 @@
       ],
       "intent": "comfort",
       "label": "水汪汪哭028",
-      "file": "candidates/麻薯-水汪汪哭-028.webp",
+      "file": "candidates/薯门-水汪汪哭-028.webp",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -295,7 +295,7 @@
       ],
       "intent": "warm",
       "label": "比心飞奔029",
-      "file": "candidates/麻薯-比心飞奔-029.webp",
+      "file": "candidates/薯门-比心飞奔-029.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -305,7 +305,7 @@
       ],
       "intent": "celebrate",
       "label": "四叶草幸运030",
-      "file": "candidates/麻薯-四叶草幸运-030.webp",
+      "file": "candidates/薯门-四叶草幸运-030.webp",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -315,7 +315,7 @@
       ],
       "intent": "acknowledge",
       "label": "喝饮料办公031",
-      "file": "candidates/麻薯-喝饮料办公-031.webp",
+      "file": "candidates/薯门-喝饮料办公-031.webp",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -325,7 +325,7 @@
       ],
       "intent": "warm",
       "label": "爱心贴贴032",
-      "file": "candidates/麻薯-爱心贴贴-032.webp",
+      "file": "candidates/薯门-爱心贴贴-032.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -335,7 +335,7 @@
       ],
       "intent": "tease",
       "label": "长睫毛看你033",
-      "file": "candidates/麻薯-长睫毛看你-033.webp",
+      "file": "candidates/薯门-长睫毛看你-033.webp",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -345,7 +345,7 @@
       ],
       "intent": "warm",
       "label": "爱心围绕034",
-      "file": "candidates/麻薯-爱心围绕-034.webp",
+      "file": "candidates/薯门-爱心围绕-034.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -355,7 +355,7 @@
       ],
       "intent": "tease",
       "label": "西瓜帽卖萌035",
-      "file": "candidates/麻薯-西瓜帽卖萌-035.webp",
+      "file": "candidates/薯门-西瓜帽卖萌-035.webp",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -365,7 +365,7 @@
       ],
       "intent": "warm",
       "label": "爱心抱抱036",
-      "file": "candidates/麻薯-爱心抱抱-036.webp",
+      "file": "candidates/薯门-爱心抱抱-036.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -375,7 +375,7 @@
       ],
       "intent": "warm",
       "label": "抱着小饼037",
-      "file": "candidates/麻薯-抱着小饼-037.webp",
+      "file": "candidates/薯门-抱着小饼-037.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -386,7 +386,7 @@
       ],
       "intent": "accompany",
       "label": "蹲着发呆038",
-      "file": "candidates/麻薯-蹲着发呆-038.webp",
+      "file": "candidates/薯门-蹲着发呆-038.webp",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -396,7 +396,7 @@
       ],
       "intent": "celebrate",
       "label": "幸运冒头039",
-      "file": "candidates/麻薯-幸运冒头-039.jpg",
+      "file": "candidates/薯门-幸运冒头-039.jpg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -406,7 +406,7 @@
       ],
       "intent": "tease",
       "label": "喝一口040",
-      "file": "candidates/麻薯-喝一口-040.jpg",
+      "file": "candidates/薯门-喝一口-040.jpg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -416,7 +416,7 @@
       ],
       "intent": "accompany",
       "label": "热到融化041",
-      "file": "candidates/麻薯-热到融化-041.jpg",
+      "file": "candidates/薯门-热到融化-041.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -426,7 +426,7 @@
       ],
       "intent": "tease",
       "label": "长睫毛无语042",
-      "file": "candidates/麻薯-长睫毛无语-042.jpg",
+      "file": "candidates/薯门-长睫毛无语-042.jpg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -436,7 +436,7 @@
       ],
       "intent": "celebrate",
       "label": "开心干饭043",
-      "file": "candidates/麻薯-开心干饭-043.jpg",
+      "file": "candidates/薯门-开心干饭-043.jpg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -446,7 +446,7 @@
       ],
       "intent": "tease",
       "label": "小裙子出场044",
-      "file": "candidates/麻薯-小裙子出场-044.jpg",
+      "file": "candidates/薯门-小裙子出场-044.jpg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -456,7 +456,7 @@
       ],
       "intent": "celebrate",
       "label": "抱着西瓜045",
-      "file": "candidates/麻薯-抱着西瓜-045.jpg",
+      "file": "candidates/薯门-抱着西瓜-045.jpg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -466,7 +466,7 @@
       ],
       "intent": "accompany",
       "label": "睡到缩起来046",
-      "file": "candidates/麻薯-睡到缩起来-046.jpg",
+      "file": "candidates/薯门-睡到缩起来-046.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -476,7 +476,7 @@
       ],
       "intent": "accompany",
       "label": "盖被发呆047",
-      "file": "candidates/麻薯-盖被发呆-047.jpg",
+      "file": "candidates/薯门-盖被发呆-047.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -486,7 +486,7 @@
       ],
       "intent": "accompany",
       "label": "星星被睡觉048",
-      "file": "candidates/麻薯-星星被睡觉-048.jpg",
+      "file": "candidates/薯门-星星被睡觉-048.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -496,7 +496,7 @@
       ],
       "intent": "acknowledge",
       "label": "近距离看你049",
-      "file": "candidates/麻薯-近距离看你-049.jpg",
+      "file": "candidates/薯门-近距离看你-049.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -506,7 +506,7 @@
       ],
       "intent": "acknowledge",
       "label": "背带裤站好050",
-      "file": "candidates/麻薯-背带裤站好-050.jpg",
+      "file": "candidates/薯门-背带裤站好-050.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -516,7 +516,7 @@
       ],
       "intent": "accompany",
       "label": "毛毯裹住051",
-      "file": "candidates/麻薯-毛毯裹住-051.jpg",
+      "file": "candidates/薯门-毛毯裹住-051.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -525,8 +525,8 @@
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "表情集合052",
-      "file": "candidates/麻薯-表情集合-052.jpg",
+      "label": "薯门小队052",
+      "file": "candidates/薯门-小队-052.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -536,7 +536,7 @@
       ],
       "intent": "acknowledge",
       "label": "抱杯子坐着053",
-      "file": "candidates/麻薯-抱杯子坐着-053.jpg",
+      "file": "candidates/薯门-抱杯子坐着-053.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -546,7 +546,7 @@
       ],
       "intent": "calm",
       "label": "门后偷看054",
-      "file": "candidates/麻薯-门后偷看-054.jpg",
+      "file": "candidates/薯门-门后偷看-054.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -556,7 +556,7 @@
       ],
       "intent": "tease",
       "label": "睫毛无语脸055",
-      "file": "candidates/麻薯-睫毛无语脸-055.webp",
+      "file": "candidates/薯门-睫毛无语脸-055.webp",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -566,7 +566,7 @@
       ],
       "intent": "warm",
       "label": "饼干小心056",
-      "file": "candidates/麻薯-饼干小心-056.jpg",
+      "file": "candidates/薯门-饼干小心-056.jpg",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -576,7 +576,7 @@
       ],
       "intent": "clarify",
       "label": "绿脸呆住057",
-      "file": "candidates/麻薯-绿脸呆住-057.jpg",
+      "file": "candidates/薯门-绿脸呆住-057.jpg",
       "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
@@ -585,8 +585,8 @@
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "小剧场合集058",
-      "file": "candidates/麻薯-小剧场合集-058.jpg",
+      "label": "薯门小剧场058",
+      "file": "candidates/薯门-小剧场-058.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -596,7 +596,7 @@
       ],
       "intent": "accompany",
       "label": "热气腾腾059",
-      "file": "candidates/麻薯-热气腾腾-059.jpg",
+      "file": "candidates/薯门-热气腾腾-059.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -606,7 +606,7 @@
       ],
       "intent": "calm",
       "label": "坐垫紧张060",
-      "file": "candidates/麻薯-坐垫紧张-060.jpg",
+      "file": "candidates/薯门-坐垫紧张-060.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -616,7 +616,7 @@
       ],
       "intent": "acknowledge",
       "label": "电脑前喝饮料061",
-      "file": "candidates/麻薯-电脑前喝饮料-061.webp",
+      "file": "candidates/薯门-电脑前喝饮料-061.webp",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -626,7 +626,7 @@
       ],
       "intent": "tease",
       "label": "蘑菇帽发呆062",
-      "file": "candidates/麻薯-蘑菇帽发呆-062.jpg",
+      "file": "candidates/薯门-蘑菇帽发呆-062.jpg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -635,8 +635,8 @@
         "confusion"
       ],
       "intent": "clarify",
-      "label": "一堆小表情063",
-      "file": "candidates/麻薯-一堆小表情-063.jpg",
+      "label": "薯门开会063",
+      "file": "candidates/薯门-开会-063.jpg",
       "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
@@ -646,7 +646,7 @@
       ],
       "intent": "calm",
       "label": "很多麻薯慌了064",
-      "file": "candidates/麻薯-很多麻薯慌了-064.jpg",
+      "file": "candidates/薯门-很多麻薯慌了-064.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -656,7 +656,7 @@
       ],
       "intent": "accompany",
       "label": "叠成三明治065",
-      "file": "candidates/麻薯-叠成三明治-065.jpg",
+      "file": "candidates/薯门-叠成三明治-065.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -666,7 +666,7 @@
       ],
       "intent": "comfort",
       "label": "难过缩起来066",
-      "file": "candidates/麻薯-难过缩起来-066.jpg",
+      "file": "candidates/薯门-难过缩起来-066.jpg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -676,7 +676,7 @@
       ],
       "intent": "calm",
       "label": "吓到变形067",
-      "file": "candidates/麻薯-吓到变形-067.jpg",
+      "file": "candidates/薯门-吓到变形-067.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -686,7 +686,7 @@
       ],
       "intent": "accompany",
       "label": "蹲下休息068",
-      "file": "candidates/麻薯-蹲下休息-068.jpg",
+      "file": "candidates/薯门-蹲下休息-068.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -695,8 +695,8 @@
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "贴纸小合集069",
-      "file": "candidates/麻薯-贴纸小合集-069.jpg",
+      "label": "薯门围坐069",
+      "file": "candidates/薯门-围坐-069.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -707,7 +707,7 @@
       ],
       "intent": "acknowledge",
       "label": "方方看你070",
-      "file": "candidates/麻薯-方方看你-070.jpeg",
+      "file": "candidates/薯门-方方看你-070.jpeg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -717,7 +717,7 @@
       ],
       "intent": "calm",
       "label": "水滴傻住071",
-      "file": "candidates/麻薯-水滴傻住-071.jpeg",
+      "file": "candidates/薯门-水滴傻住-071.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -727,7 +727,7 @@
       ],
       "intent": "celebrate",
       "label": "火苗生日愿望072",
-      "file": "candidates/麻薯-火苗生日愿望-072.jpeg",
+      "file": "candidates/薯门-火苗生日愿望-072.jpeg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -737,7 +737,7 @@
       ],
       "intent": "calm",
       "label": "线条紧张073",
-      "file": "candidates/麻薯-线条紧张-073.jpeg",
+      "file": "candidates/薯门-线条紧张-073.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -747,7 +747,7 @@
       ],
       "intent": "comfort",
       "label": "眼泪快掉了074",
-      "file": "candidates/麻薯-眼泪快掉了-074.jpeg",
+      "file": "candidates/薯门-眼泪快掉了-074.jpeg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -757,7 +757,7 @@
       ],
       "intent": "calm",
       "label": "被子惊醒075",
-      "file": "candidates/麻薯-被子惊醒-075.jpeg",
+      "file": "candidates/薯门-被子惊醒-075.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -767,7 +767,7 @@
       ],
       "intent": "comfort",
       "label": "大眼难过076",
-      "file": "candidates/麻薯-大眼难过-076.jpeg",
+      "file": "candidates/薯门-大眼难过-076.jpeg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -777,7 +777,7 @@
       ],
       "intent": "tease",
       "label": "戴眼镜装酷077",
-      "file": "candidates/麻薯-戴眼镜装酷-077.jpeg",
+      "file": "candidates/薯门-戴眼镜装酷-077.jpeg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -787,7 +787,7 @@
       ],
       "intent": "accompany",
       "label": "纸巾躺平078",
-      "file": "candidates/麻薯-纸巾躺平-078.jpeg",
+      "file": "candidates/薯门-纸巾躺平-078.jpeg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -797,7 +797,7 @@
       ],
       "intent": "accompany",
       "label": "火堆旁陪坐079",
-      "file": "candidates/麻薯-火堆旁陪坐-079.gif",
+      "file": "candidates/薯门-火堆旁陪坐-079.gif",
       "fallback": "[麻薯表情包：陪你坐坐]"
     },
     {
@@ -807,7 +807,7 @@
       ],
       "intent": "tease",
       "label": "小猫桃子贴贴080",
-      "file": "candidates/麻薯-小猫桃子贴贴-080.gif",
+      "file": "candidates/薯门-小猫桃子贴贴-080.gif",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -817,7 +817,7 @@
       ],
       "intent": "clarify",
       "label": "托腮思考081",
-      "file": "candidates/麻薯-托腮思考-081.jpeg",
+      "file": "candidates/薯门-托腮思考-081.jpeg",
       "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
@@ -827,7 +827,7 @@
       ],
       "intent": "warm",
       "label": "两只冰淇淋082",
-      "file": "candidates/麻薯-两只冰淇淋-082.jpeg",
+      "file": "candidates/薯门-两只冰淇淋-082.jpeg",
       "fallback": "[麻薯表情包：比心]"
     },
     {
@@ -837,7 +837,7 @@
       ],
       "intent": "comfort",
       "label": "趴下缩成团083",
-      "file": "candidates/麻薯-趴下缩成团-083.jpeg",
+      "file": "candidates/薯门-趴下缩成团-083.jpeg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -847,7 +847,7 @@
       ],
       "intent": "accompany",
       "label": "火堆边小陪伴084",
-      "file": "candidates/麻薯-火堆边小陪伴-084.gif",
+      "file": "candidates/薯门-火堆边小陪伴-084.gif",
       "fallback": "[麻薯表情包：陪你坐坐]"
     },
     {
@@ -857,7 +857,7 @@
       ],
       "intent": "accompany",
       "label": "被窝里看手机085",
-      "file": "candidates/麻薯-被窝里看手机-085.jpeg",
+      "file": "candidates/薯门-被窝里看手机-085.jpeg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -867,7 +867,7 @@
       ],
       "intent": "calm",
       "label": "人群里傻住086",
-      "file": "candidates/麻薯-人群里傻住-086.jpeg",
+      "file": "candidates/薯门-人群里傻住-086.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -878,7 +878,7 @@
       ],
       "intent": "acknowledge",
       "label": "两张脸看你087",
-      "file": "candidates/麻薯-两张脸看你-087.jpeg",
+      "file": "candidates/薯门-两张脸看你-087.jpeg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -888,7 +888,7 @@
       ],
       "intent": "acknowledge",
       "label": "桌边坐好088",
-      "file": "candidates/麻薯-桌边坐好-088.gif",
+      "file": "candidates/薯门-桌边坐好-088.gif",
       "fallback": "[麻薯表情包：探头]"
     },
     {
@@ -899,7 +899,7 @@
       ],
       "intent": "validate",
       "label": "拿喇叭帮你喊089",
-      "file": "candidates/麻薯-拿喇叭帮你喊-089.jpeg",
+      "file": "candidates/薯门-拿喇叭帮你喊-089.jpeg",
       "fallback": "[麻薯表情包：一起气鼓鼓]"
     },
     {
@@ -909,7 +909,7 @@
       ],
       "intent": "accompany",
       "label": "趴桌休息090",
-      "file": "candidates/麻薯-趴桌休息-090.gif",
+      "file": "candidates/薯门-趴桌休息-090.gif",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -919,7 +919,7 @@
       ],
       "intent": "accompany",
       "label": "边学边喝091",
-      "file": "candidates/麻薯-边学边喝-091.jpeg",
+      "file": "candidates/薯门-边学边喝-091.jpeg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
@@ -929,7 +929,7 @@
       ],
       "intent": "clarify",
       "label": "泡泡头发呆092",
-      "file": "candidates/麻薯-泡泡头发呆-092.jpeg",
+      "file": "candidates/薯门-泡泡头发呆-092.jpeg",
       "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
@@ -939,7 +939,7 @@
       ],
       "intent": "celebrate",
       "label": "泡泡开心脸093",
-      "file": "candidates/麻薯-泡泡开心脸-093.jpeg",
+      "file": "candidates/薯门-泡泡开心脸-093.jpeg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
@@ -949,7 +949,7 @@
       ],
       "intent": "tease",
       "label": "圆脸吐舌头094",
-      "file": "candidates/麻薯-圆脸吐舌头-094.gif",
+      "file": "candidates/薯门-圆脸吐舌头-094.gif",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
@@ -959,7 +959,7 @@
       ],
       "intent": "calm",
       "label": "枕头里紧张095",
-      "file": "candidates/麻薯-枕头里紧张-095.jpeg",
+      "file": "candidates/薯门-枕头里紧张-095.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -970,7 +970,7 @@
       ],
       "intent": "calm",
       "label": "风中凌乱096",
-      "file": "candidates/麻薯-风中凌乱-096.jpeg",
+      "file": "candidates/薯门-风中凌乱-096.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -980,7 +980,7 @@
       ],
       "intent": "comfort",
       "label": "躺着掉电097",
-      "file": "candidates/麻薯-躺着掉电-097.jpeg",
+      "file": "candidates/薯门-躺着掉电-097.jpeg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
@@ -990,7 +990,7 @@
       ],
       "intent": "calm",
       "label": "被风吹跑098",
-      "file": "candidates/麻薯-被风吹跑-098.jpeg",
+      "file": "candidates/薯门-被风吹跑-098.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
@@ -1001,7 +1001,7 @@
       ],
       "intent": "validate",
       "label": "喇叭加油099",
-      "file": "candidates/麻薯-喇叭加油-099.jpeg",
+      "file": "candidates/薯门-喇叭加油-099.jpeg",
       "fallback": "[麻薯表情包：一起气鼓鼓]"
     },
     {
@@ -1011,7 +1011,7 @@
       ],
       "intent": "clarify",
       "label": "问号发呆100",
-      "file": "candidates/麻薯-问号发呆-100.jpeg",
+      "file": "candidates/薯门-问号发呆-100.jpeg",
       "fallback": "[麻薯表情包：歪头疑惑]"
     }
   ]
