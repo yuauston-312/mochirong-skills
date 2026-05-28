@@ -22,26 +22,47 @@ def choose_sticker(emotion: str, intent: str | None = None) -> dict:
     emotion = emotion.lower().strip()
     stickers = load_stickers()
 
-    matches = [
+    primary_matches = [
+        sticker
+        for sticker in stickers
+        if sticker.get("emotion", [None])[0] == emotion
+        and (intent is None or intent == sticker.get("intent"))
+    ]
+    for sticker in primary_matches:
+        if (STICKER_DIR / sticker["file"]).exists():
+            return sticker
+    if primary_matches:
+        return primary_matches[0]
+
+    secondary_matches = [
         sticker
         for sticker in stickers
         if emotion in sticker.get("emotion", [])
         and (intent is None or intent == sticker.get("intent"))
     ]
-    for sticker in matches:
+    for sticker in secondary_matches:
         if (STICKER_DIR / sticker["file"]).exists():
             return sticker
-    if matches:
-        return matches[0]
+    if secondary_matches:
+        return secondary_matches[0]
 
-    matches = [
+    primary_matches = [
+        sticker for sticker in stickers if sticker.get("emotion", [None])[0] == emotion
+    ]
+    for sticker in primary_matches:
+        if (STICKER_DIR / sticker["file"]).exists():
+            return sticker
+    if primary_matches:
+        return primary_matches[0]
+
+    secondary_matches = [
         sticker for sticker in stickers if emotion in sticker.get("emotion", [])
     ]
-    for sticker in matches:
+    for sticker in secondary_matches:
         if (STICKER_DIR / sticker["file"]).exists():
             return sticker
-    if matches:
-        return matches[0]
+    if secondary_matches:
+        return secondary_matches[0]
 
     for sticker in stickers:
         if "neutral" in sticker.get("emotion", []) and (STICKER_DIR / sticker["file"]).exists():

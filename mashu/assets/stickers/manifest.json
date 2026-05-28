@@ -1,44 +1,47 @@
 {
   "stickers": [
     {
-      "id": "mochirong-001-sadness",
+      "id": "mochirong-001-neutral",
       "emotion": [
-        "sadness"
+        "neutral",
+        "playfulness"
       ],
-      "intent": "comfort",
-      "label": "抱抱001",
+      "intent": "acknowledge",
+      "label": "头顶小花001",
       "file": "candidates/mochirong-001.png",
-      "fallback": "[麻薯表情包：抱抱]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-002-anxiety",
+      "id": "mochirong-002-gratitude",
       "emotion": [
-        "anxiety"
+        "gratitude",
+        "joy"
       ],
-      "intent": "calm",
-      "label": "摸摸头002",
+      "intent": "warm",
+      "label": "飞奔比心002",
       "file": "candidates/mochirong-002.png",
-      "fallback": "[麻薯表情包：摸摸头]"
+      "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-003-anger",
-      "emotion": [
-        "anger"
-      ],
-      "intent": "validate",
-      "label": "一起气鼓鼓003",
-      "file": "candidates/mochirong-003.png",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
-    },
-    {
-      "id": "mochirong-004-tiredness",
+      "id": "mochirong-003-tiredness",
       "emotion": [
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼004",
-      "file": "candidates/mochirong-004.png",
+      "label": "困困睡觉003",
+      "file": "candidates/mochirong-003.png",
       "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-004-gratitude",
+      "emotion": [
+        "gratitude",
+        "playfulness"
+      ],
+      "intent": "warm",
+      "label": "送你玫瑰004",
+      "file": "candidates/mochirong-004.png",
+      "fallback": "[麻薯表情包：比心]"
     },
     {
       "id": "mochirong-005-joy",
@@ -46,429 +49,435 @@
         "joy"
       ],
       "intent": "celebrate",
-      "label": "开心转圈005",
+      "label": "开心冲呀005",
       "file": "candidates/mochirong-005.jpg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
-      "id": "mochirong-006-pride",
+      "id": "mochirong-006-anxiety",
       "emotion": [
-        "pride"
+        "anxiety"
       ],
-      "intent": "celebrate",
-      "label": "举小旗006",
+      "intent": "calm",
+      "label": "草丛躲躲006",
       "file": "candidates/mochirong-006.jpg",
-      "fallback": "[麻薯表情包：举小旗]"
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-007-confusion",
+      "id": "mochirong-007-neutral",
       "emotion": [
+        "neutral",
         "confusion"
       ],
-      "intent": "clarify",
-      "label": "歪头疑惑007",
+      "intent": "acknowledge",
+      "label": "举牌探头007",
       "file": "candidates/mochirong-007.jpg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-008-loneliness",
+      "id": "mochirong-008-tiredness",
       "emotion": [
-        "loneliness"
+        "tiredness"
       ],
       "intent": "accompany",
-      "label": "陪你坐坐008",
+      "label": "坐着吃饭008",
       "file": "candidates/mochirong-008.jpg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-009-gratitude",
+      "id": "mochirong-009-anxiety",
       "emotion": [
-        "gratitude"
+        "anxiety"
       ],
-      "intent": "warm",
-      "label": "比心009",
+      "intent": "calm",
+      "label": "被角偷看009",
       "file": "candidates/mochirong-009.jpg",
-      "fallback": "[麻薯表情包：比心]"
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-010-playfulness",
+      "id": "mochirong-010-loneliness",
       "emotion": [
-        "playfulness"
+        "loneliness"
       ],
-      "intent": "tease",
-      "label": "眨眼010",
+      "intent": "accompany",
+      "label": "窗边探头010",
       "file": "candidates/mochirong-010.jpg",
-      "fallback": "[麻薯表情包：眨眼]"
+      "fallback": "[麻薯表情包：陪你坐坐]"
     },
     {
-      "id": "mochirong-011-neutral",
+      "id": "mochirong-011-tiredness",
       "emotion": [
-        "neutral"
+        "tiredness"
       ],
-      "intent": "acknowledge",
-      "label": "探头011",
+      "intent": "accompany",
+      "label": "被窝睡觉011",
       "file": "candidates/mochirong-011.jpg",
-      "fallback": "[麻薯表情包：探头]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-012-sadness",
+      "id": "mochirong-012-anxiety",
       "emotion": [
-        "sadness"
+        "anxiety"
       ],
-      "intent": "comfort",
-      "label": "抱抱012",
+      "intent": "calm",
+      "label": "石头躲躲012",
       "file": "candidates/mochirong-012.png",
-      "fallback": "[麻薯表情包：抱抱]"
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-013-anxiety",
+      "id": "mochirong-013-sadness",
       "emotion": [
-        "anxiety"
+        "sadness"
       ],
-      "intent": "calm",
-      "label": "摸摸头013",
+      "intent": "comfort",
+      "label": "哭到抽水013",
       "file": "candidates/mochirong-013.png",
-      "fallback": "[麻薯表情包：摸摸头]"
+      "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-014-anger",
+      "id": "mochirong-014-sadness",
       "emotion": [
-        "anger"
+        "sadness"
       ],
-      "intent": "validate",
-      "label": "一起气鼓鼓014",
+      "intent": "comfort",
+      "label": "小声掉眼泪014",
       "file": "candidates/mochirong-014.jpg",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
+      "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-015-tiredness",
+      "id": "mochirong-015-joy",
       "emotion": [
-        "tiredness"
+        "joy"
       ],
-      "intent": "accompany",
-      "label": "瘫成小饼015",
+      "intent": "celebrate",
+      "label": "跑跑跑015",
       "file": "candidates/mochirong-015.png",
-      "fallback": "[麻薯表情包：瘫成小饼]"
+      "fallback": "[麻薯表情包：开心转圈]"
     },
     {
-      "id": "mochirong-016-joy",
+      "id": "mochirong-016-tiredness",
       "emotion": [
-        "joy"
+        "tiredness"
       ],
-      "intent": "celebrate",
-      "label": "开心转圈016",
+      "intent": "accompany",
+      "label": "被子里瘫着016",
       "file": "candidates/mochirong-016.png",
-      "fallback": "[麻薯表情包：开心转圈]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-017-pride",
+      "id": "mochirong-017-neutral",
       "emotion": [
-        "pride"
+        "neutral",
+        "confusion"
       ],
-      "intent": "celebrate",
-      "label": "举小旗017",
+      "intent": "acknowledge",
+      "label": "举布回应017",
       "file": "candidates/mochirong-017.png",
-      "fallback": "[麻薯表情包：举小旗]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-018-confusion",
+      "id": "mochirong-018-neutral",
       "emotion": [
-        "confusion"
+        "neutral"
       ],
-      "intent": "clarify",
-      "label": "歪头疑惑018",
+      "intent": "acknowledge",
+      "label": "铲子待命018",
       "file": "candidates/mochirong-018.jpg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-019-loneliness",
+      "id": "mochirong-019-gratitude",
       "emotion": [
-        "loneliness"
+        "gratitude",
+        "joy"
       ],
-      "intent": "accompany",
-      "label": "陪你坐坐019",
+      "intent": "warm",
+      "label": "爱心冲刺019",
       "file": "candidates/mochirong-019.jpg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
+      "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-020-gratitude",
+      "id": "mochirong-020-neutral",
       "emotion": [
-        "gratitude"
+        "neutral"
       ],
-      "intent": "warm",
-      "label": "比心020",
+      "intent": "acknowledge",
+      "label": "坐着看书020",
       "file": "candidates/mochirong-020.jpg",
-      "fallback": "[麻薯表情包：比心]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-021-playfulness",
+      "id": "mochirong-021-neutral",
       "emotion": [
+        "neutral",
         "playfulness"
       ],
-      "intent": "tease",
-      "label": "眨眼021",
+      "intent": "acknowledge",
+      "label": "小花顶头021",
       "file": "candidates/mochirong-021.jpg",
-      "fallback": "[麻薯表情包：眨眼]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-022-neutral",
+      "id": "mochirong-022-gratitude",
       "emotion": [
-        "neutral"
+        "gratitude"
       ],
-      "intent": "acknowledge",
-      "label": "探头022",
+      "intent": "warm",
+      "label": "玫瑰贴贴022",
       "file": "candidates/mochirong-022.jpg",
-      "fallback": "[麻薯表情包：探头]"
+      "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-023-sadness",
+      "id": "mochirong-023-tiredness",
       "emotion": [
-        "sadness"
+        "tiredness"
       ],
-      "intent": "comfort",
-      "label": "抱抱023",
+      "intent": "accompany",
+      "label": "枕头蹭蹭023",
       "file": "candidates/mochirong-023.jpg",
-      "fallback": "[麻薯表情包：抱抱]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-024-anxiety",
+      "id": "mochirong-024-tiredness",
       "emotion": [
-        "anxiety"
+        "tiredness"
       ],
-      "intent": "calm",
-      "label": "摸摸头024",
+      "intent": "accompany",
+      "label": "被子躺平024",
       "file": "candidates/mochirong-024.jpg",
-      "fallback": "[麻薯表情包：摸摸头]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-025-anger",
+      "id": "mochirong-025-gratitude",
       "emotion": [
-        "anger"
+        "gratitude"
       ],
-      "intent": "validate",
-      "label": "一起气鼓鼓025",
+      "intent": "warm",
+      "label": "玫瑰近看025",
       "file": "candidates/mochirong-025.webp",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
+      "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-026-tiredness",
+      "id": "mochirong-026-pride",
       "emotion": [
-        "tiredness"
+        "pride"
       ],
-      "intent": "accompany",
-      "label": "瘫成小饼026",
+      "intent": "celebrate",
+      "label": "大拇指认可026",
       "file": "candidates/mochirong-026.jpg",
-      "fallback": "[麻薯表情包：瘫成小饼]"
-    },
-    {
-      "id": "mochirong-027-joy",
-      "emotion": [
-        "joy"
-      ],
-      "intent": "celebrate",
-      "label": "开心转圈027",
-      "file": "candidates/mochirong-027.webp",
-      "fallback": "[麻薯表情包：开心转圈]"
-    },
-    {
-      "id": "mochirong-028-pride",
-      "emotion": [
-        "pride"
-      ],
-      "intent": "celebrate",
-      "label": "举小旗028",
-      "file": "candidates/mochirong-028.webp",
       "fallback": "[麻薯表情包：举小旗]"
     },
     {
-      "id": "mochirong-029-confusion",
-      "emotion": [
-        "confusion"
-      ],
-      "intent": "clarify",
-      "label": "歪头疑惑029",
-      "file": "candidates/mochirong-029.webp",
-      "fallback": "[麻薯表情包：歪头疑惑]"
-    },
-    {
-      "id": "mochirong-030-loneliness",
-      "emotion": [
-        "loneliness"
-      ],
-      "intent": "accompany",
-      "label": "陪你坐坐030",
-      "file": "candidates/mochirong-030.webp",
-      "fallback": "[麻薯表情包：陪你坐坐]"
-    },
-    {
-      "id": "mochirong-031-gratitude",
+      "id": "mochirong-027-gratitude",
       "emotion": [
         "gratitude"
       ],
       "intent": "warm",
-      "label": "比心031",
-      "file": "candidates/mochirong-031.webp",
+      "label": "拿花过来027",
+      "file": "candidates/mochirong-027.webp",
       "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-032-playfulness",
-      "emotion": [
-        "playfulness"
-      ],
-      "intent": "tease",
-      "label": "眨眼032",
-      "file": "candidates/mochirong-032.webp",
-      "fallback": "[麻薯表情包：眨眼]"
-    },
-    {
-      "id": "mochirong-033-neutral",
-      "emotion": [
-        "neutral"
-      ],
-      "intent": "acknowledge",
-      "label": "探头033",
-      "file": "candidates/mochirong-033.webp",
-      "fallback": "[麻薯表情包：探头]"
-    },
-    {
-      "id": "mochirong-034-sadness",
+      "id": "mochirong-028-sadness",
       "emotion": [
         "sadness"
       ],
       "intent": "comfort",
-      "label": "抱抱034",
-      "file": "candidates/mochirong-034.webp",
+      "label": "水汪汪哭028",
+      "file": "candidates/mochirong-028.webp",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-035-anxiety",
+      "id": "mochirong-029-gratitude",
       "emotion": [
-        "anxiety"
+        "gratitude",
+        "joy"
       ],
-      "intent": "calm",
-      "label": "摸摸头035",
+      "intent": "warm",
+      "label": "比心飞奔029",
+      "file": "candidates/mochirong-029.webp",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-030-joy",
+      "emotion": [
+        "joy"
+      ],
+      "intent": "celebrate",
+      "label": "四叶草幸运030",
+      "file": "candidates/mochirong-030.webp",
+      "fallback": "[麻薯表情包：开心转圈]"
+    },
+    {
+      "id": "mochirong-031-neutral",
+      "emotion": [
+        "neutral"
+      ],
+      "intent": "acknowledge",
+      "label": "喝饮料办公031",
+      "file": "candidates/mochirong-031.webp",
+      "fallback": "[麻薯表情包：探头]"
+    },
+    {
+      "id": "mochirong-032-gratitude",
+      "emotion": [
+        "gratitude"
+      ],
+      "intent": "warm",
+      "label": "爱心贴贴032",
+      "file": "candidates/mochirong-032.webp",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-033-playfulness",
+      "emotion": [
+        "playfulness"
+      ],
+      "intent": "tease",
+      "label": "长睫毛看你033",
+      "file": "candidates/mochirong-033.webp",
+      "fallback": "[麻薯表情包：眨眼]"
+    },
+    {
+      "id": "mochirong-034-gratitude",
+      "emotion": [
+        "gratitude"
+      ],
+      "intent": "warm",
+      "label": "爱心围绕034",
+      "file": "candidates/mochirong-034.webp",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-035-playfulness",
+      "emotion": [
+        "playfulness"
+      ],
+      "intent": "tease",
+      "label": "西瓜帽卖萌035",
       "file": "candidates/mochirong-035.webp",
-      "fallback": "[麻薯表情包：摸摸头]"
+      "fallback": "[麻薯表情包：眨眼]"
     },
     {
-      "id": "mochirong-036-anger",
+      "id": "mochirong-036-gratitude",
       "emotion": [
-        "anger"
+        "gratitude"
       ],
-      "intent": "validate",
-      "label": "一起气鼓鼓036",
+      "intent": "warm",
+      "label": "爱心抱抱036",
       "file": "candidates/mochirong-036.webp",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
+      "fallback": "[麻薯表情包：比心]"
     },
     {
-      "id": "mochirong-037-tiredness",
+      "id": "mochirong-037-gratitude",
+      "emotion": [
+        "gratitude"
+      ],
+      "intent": "warm",
+      "label": "抱着小饼037",
+      "file": "candidates/mochirong-037.webp",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-038-tiredness",
+      "emotion": [
+        "tiredness",
+        "sadness"
+      ],
+      "intent": "accompany",
+      "label": "蹲着发呆038",
+      "file": "candidates/mochirong-038.webp",
+      "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-039-joy",
+      "emotion": [
+        "joy"
+      ],
+      "intent": "celebrate",
+      "label": "幸运冒头039",
+      "file": "candidates/mochirong-039.jpg",
+      "fallback": "[麻薯表情包：开心转圈]"
+    },
+    {
+      "id": "mochirong-040-playfulness",
+      "emotion": [
+        "playfulness"
+      ],
+      "intent": "tease",
+      "label": "喝一口040",
+      "file": "candidates/mochirong-040.jpg",
+      "fallback": "[麻薯表情包：眨眼]"
+    },
+    {
+      "id": "mochirong-041-tiredness",
       "emotion": [
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼037",
-      "file": "candidates/mochirong-037.webp",
+      "label": "热到融化041",
+      "file": "candidates/mochirong-041.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-038-joy",
-      "emotion": [
-        "joy"
-      ],
-      "intent": "celebrate",
-      "label": "开心转圈038",
-      "file": "candidates/mochirong-038.webp",
-      "fallback": "[麻薯表情包：开心转圈]"
-    },
-    {
-      "id": "mochirong-039-pride",
-      "emotion": [
-        "pride"
-      ],
-      "intent": "celebrate",
-      "label": "举小旗039",
-      "file": "candidates/mochirong-039.jpg",
-      "fallback": "[麻薯表情包：举小旗]"
-    },
-    {
-      "id": "mochirong-040-confusion",
-      "emotion": [
-        "confusion"
-      ],
-      "intent": "clarify",
-      "label": "歪头疑惑040",
-      "file": "candidates/mochirong-040.jpg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
-    },
-    {
-      "id": "mochirong-041-loneliness",
-      "emotion": [
-        "loneliness"
-      ],
-      "intent": "accompany",
-      "label": "陪你坐坐041",
-      "file": "candidates/mochirong-041.jpg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
-    },
-    {
-      "id": "mochirong-042-gratitude",
-      "emotion": [
-        "gratitude"
-      ],
-      "intent": "warm",
-      "label": "比心042",
-      "file": "candidates/mochirong-042.jpg",
-      "fallback": "[麻薯表情包：比心]"
-    },
-    {
-      "id": "mochirong-043-playfulness",
+      "id": "mochirong-042-playfulness",
       "emotion": [
         "playfulness"
       ],
       "intent": "tease",
-      "label": "眨眼043",
-      "file": "candidates/mochirong-043.jpg",
+      "label": "长睫毛无语042",
+      "file": "candidates/mochirong-042.jpg",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
-      "id": "mochirong-044-neutral",
+      "id": "mochirong-043-joy",
       "emotion": [
-        "neutral"
+        "joy"
       ],
-      "intent": "acknowledge",
-      "label": "探头044",
+      "intent": "celebrate",
+      "label": "开心干饭043",
+      "file": "candidates/mochirong-043.jpg",
+      "fallback": "[麻薯表情包：开心转圈]"
+    },
+    {
+      "id": "mochirong-044-playfulness",
+      "emotion": [
+        "playfulness"
+      ],
+      "intent": "tease",
+      "label": "小裙子出场044",
       "file": "candidates/mochirong-044.jpg",
-      "fallback": "[麻薯表情包：探头]"
+      "fallback": "[麻薯表情包：眨眼]"
     },
     {
-      "id": "mochirong-045-sadness",
+      "id": "mochirong-045-joy",
       "emotion": [
-        "sadness"
+        "joy"
       ],
-      "intent": "comfort",
-      "label": "抱抱045",
+      "intent": "celebrate",
+      "label": "抱着西瓜045",
       "file": "candidates/mochirong-045.jpg",
-      "fallback": "[麻薯表情包：抱抱]"
+      "fallback": "[麻薯表情包：开心转圈]"
     },
     {
-      "id": "mochirong-046-anxiety",
+      "id": "mochirong-046-tiredness",
       "emotion": [
-        "anxiety"
+        "tiredness"
       ],
-      "intent": "calm",
-      "label": "摸摸头046",
+      "intent": "accompany",
+      "label": "睡到缩起来046",
       "file": "candidates/mochirong-046.jpg",
-      "fallback": "[麻薯表情包：摸摸头]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-047-anger",
+      "id": "mochirong-047-tiredness",
       "emotion": [
-        "anger"
+        "tiredness"
       ],
-      "intent": "validate",
-      "label": "一起气鼓鼓047",
+      "intent": "accompany",
+      "label": "盖被发呆047",
       "file": "candidates/mochirong-047.jpg",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
       "id": "mochirong-048-tiredness",
@@ -476,109 +485,109 @@
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼048",
+      "label": "星星被睡觉048",
       "file": "candidates/mochirong-048.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-049-joy",
-      "emotion": [
-        "joy"
-      ],
-      "intent": "celebrate",
-      "label": "开心转圈049",
-      "file": "candidates/mochirong-049.jpg",
-      "fallback": "[麻薯表情包：开心转圈]"
-    },
-    {
-      "id": "mochirong-050-pride",
-      "emotion": [
-        "pride"
-      ],
-      "intent": "celebrate",
-      "label": "举小旗050",
-      "file": "candidates/mochirong-050.jpg",
-      "fallback": "[麻薯表情包：举小旗]"
-    },
-    {
-      "id": "mochirong-051-confusion",
-      "emotion": [
-        "confusion"
-      ],
-      "intent": "clarify",
-      "label": "歪头疑惑051",
-      "file": "candidates/mochirong-051.jpg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
-    },
-    {
-      "id": "mochirong-052-loneliness",
-      "emotion": [
-        "loneliness"
-      ],
-      "intent": "accompany",
-      "label": "陪你坐坐052",
-      "file": "candidates/mochirong-052.jpg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
-    },
-    {
-      "id": "mochirong-053-gratitude",
-      "emotion": [
-        "gratitude"
-      ],
-      "intent": "warm",
-      "label": "比心053",
-      "file": "candidates/mochirong-053.jpg",
-      "fallback": "[麻薯表情包：比心]"
-    },
-    {
-      "id": "mochirong-054-playfulness",
-      "emotion": [
-        "playfulness"
-      ],
-      "intent": "tease",
-      "label": "眨眼054",
-      "file": "candidates/mochirong-054.jpg",
-      "fallback": "[麻薯表情包：眨眼]"
-    },
-    {
-      "id": "mochirong-055-neutral",
+      "id": "mochirong-049-neutral",
       "emotion": [
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "探头055",
-      "file": "candidates/mochirong-055.webp",
+      "label": "近距离看你049",
+      "file": "candidates/mochirong-049.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-056-sadness",
+      "id": "mochirong-050-neutral",
       "emotion": [
-        "sadness"
+        "neutral"
       ],
-      "intent": "comfort",
-      "label": "抱抱056",
-      "file": "candidates/mochirong-056.jpg",
-      "fallback": "[麻薯表情包：抱抱]"
+      "intent": "acknowledge",
+      "label": "背带裤站好050",
+      "file": "candidates/mochirong-050.jpg",
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-057-anxiety",
+      "id": "mochirong-051-tiredness",
+      "emotion": [
+        "tiredness"
+      ],
+      "intent": "accompany",
+      "label": "毛毯裹住051",
+      "file": "candidates/mochirong-051.jpg",
+      "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-052-neutral",
+      "emotion": [
+        "neutral"
+      ],
+      "intent": "acknowledge",
+      "label": "表情集合052",
+      "file": "candidates/mochirong-052.jpg",
+      "fallback": "[麻薯表情包：探头]"
+    },
+    {
+      "id": "mochirong-053-neutral",
+      "emotion": [
+        "neutral"
+      ],
+      "intent": "acknowledge",
+      "label": "抱杯子坐着053",
+      "file": "candidates/mochirong-053.jpg",
+      "fallback": "[麻薯表情包：探头]"
+    },
+    {
+      "id": "mochirong-054-anxiety",
       "emotion": [
         "anxiety"
       ],
       "intent": "calm",
-      "label": "摸摸头057",
-      "file": "candidates/mochirong-057.jpg",
+      "label": "门后偷看054",
+      "file": "candidates/mochirong-054.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-058-anger",
+      "id": "mochirong-055-playfulness",
       "emotion": [
-        "anger"
+        "playfulness"
       ],
-      "intent": "validate",
-      "label": "一起气鼓鼓058",
+      "intent": "tease",
+      "label": "睫毛无语脸055",
+      "file": "candidates/mochirong-055.webp",
+      "fallback": "[麻薯表情包：眨眼]"
+    },
+    {
+      "id": "mochirong-056-gratitude",
+      "emotion": [
+        "gratitude"
+      ],
+      "intent": "warm",
+      "label": "饼干小心056",
+      "file": "candidates/mochirong-056.jpg",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-057-confusion",
+      "emotion": [
+        "confusion"
+      ],
+      "intent": "clarify",
+      "label": "绿脸呆住057",
+      "file": "candidates/mochirong-057.jpg",
+      "fallback": "[麻薯表情包：歪头疑惑]"
+    },
+    {
+      "id": "mochirong-058-neutral",
+      "emotion": [
+        "neutral"
+      ],
+      "intent": "acknowledge",
+      "label": "小剧场合集058",
       "file": "candidates/mochirong-058.jpg",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
       "id": "mochirong-059-tiredness",
@@ -586,289 +595,291 @@
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼059",
+      "label": "热气腾腾059",
       "file": "candidates/mochirong-059.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-060-joy",
+      "id": "mochirong-060-anxiety",
       "emotion": [
-        "joy"
+        "anxiety"
       ],
-      "intent": "celebrate",
-      "label": "开心转圈060",
+      "intent": "calm",
+      "label": "坐垫紧张060",
       "file": "candidates/mochirong-060.jpg",
-      "fallback": "[麻薯表情包：开心转圈]"
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-061-pride",
+      "id": "mochirong-061-neutral",
       "emotion": [
-        "pride"
+        "neutral"
       ],
-      "intent": "celebrate",
-      "label": "举小旗061",
+      "intent": "acknowledge",
+      "label": "电脑前喝饮料061",
       "file": "candidates/mochirong-061.webp",
-      "fallback": "[麻薯表情包：举小旗]"
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-062-confusion",
+      "id": "mochirong-062-playfulness",
       "emotion": [
-        "confusion"
+        "playfulness"
       ],
-      "intent": "clarify",
-      "label": "歪头疑惑062",
+      "intent": "tease",
+      "label": "蘑菇帽发呆062",
       "file": "candidates/mochirong-062.jpg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
+      "fallback": "[麻薯表情包：眨眼]"
     },
     {
-      "id": "mochirong-063-loneliness",
+      "id": "mochirong-063-confusion",
       "emotion": [
-        "loneliness"
+        "confusion"
       ],
-      "intent": "accompany",
-      "label": "陪你坐坐063",
+      "intent": "clarify",
+      "label": "一堆小表情063",
       "file": "candidates/mochirong-063.jpg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
+      "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
-      "id": "mochirong-064-gratitude",
+      "id": "mochirong-064-anxiety",
       "emotion": [
-        "gratitude"
+        "anxiety"
       ],
-      "intent": "warm",
-      "label": "比心064",
+      "intent": "calm",
+      "label": "很多麻薯慌了064",
       "file": "candidates/mochirong-064.jpg",
-      "fallback": "[麻薯表情包：比心]"
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-065-playfulness",
+      "id": "mochirong-065-tiredness",
       "emotion": [
-        "playfulness"
+        "tiredness"
       ],
-      "intent": "tease",
-      "label": "眨眼065",
+      "intent": "accompany",
+      "label": "叠成三明治065",
       "file": "candidates/mochirong-065.jpg",
-      "fallback": "[麻薯表情包：眨眼]"
+      "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-066-neutral",
+      "id": "mochirong-066-sadness",
       "emotion": [
-        "neutral"
+        "sadness"
       ],
-      "intent": "acknowledge",
-      "label": "探头066",
+      "intent": "comfort",
+      "label": "难过缩起来066",
       "file": "candidates/mochirong-066.jpg",
-      "fallback": "[麻薯表情包：探头]"
-    },
-    {
-      "id": "mochirong-067-sadness",
-      "emotion": [
-        "sadness"
-      ],
-      "intent": "comfort",
-      "label": "抱抱067",
-      "file": "candidates/mochirong-067.jpg",
       "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-068-anxiety",
+      "id": "mochirong-067-anxiety",
       "emotion": [
         "anxiety"
       ],
       "intent": "calm",
-      "label": "摸摸头068",
-      "file": "candidates/mochirong-068.jpg",
+      "label": "吓到变形067",
+      "file": "candidates/mochirong-067.jpg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-069-anger",
-      "emotion": [
-        "anger"
-      ],
-      "intent": "validate",
-      "label": "一起气鼓鼓069",
-      "file": "candidates/mochirong-069.jpg",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
-    },
-    {
-      "id": "mochirong-070-tiredness",
+      "id": "mochirong-068-tiredness",
       "emotion": [
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼070",
-      "file": "candidates/mochirong-070.gif",
+      "label": "蹲下休息068",
+      "file": "candidates/mochirong-068.jpg",
       "fallback": "[麻薯表情包：瘫成小饼]"
     },
     {
-      "id": "mochirong-071-joy",
-      "emotion": [
-        "joy"
-      ],
-      "intent": "celebrate",
-      "label": "开心转圈071",
-      "file": "candidates/mochirong-071.jpeg",
-      "fallback": "[麻薯表情包：开心转圈]"
-    },
-    {
-      "id": "mochirong-072-pride",
-      "emotion": [
-        "pride"
-      ],
-      "intent": "celebrate",
-      "label": "举小旗072",
-      "file": "candidates/mochirong-072.jpeg",
-      "fallback": "[麻薯表情包：举小旗]"
-    },
-    {
-      "id": "mochirong-073-confusion",
-      "emotion": [
-        "confusion"
-      ],
-      "intent": "clarify",
-      "label": "歪头疑惑073",
-      "file": "candidates/mochirong-073.gif",
-      "fallback": "[麻薯表情包：歪头疑惑]"
-    },
-    {
-      "id": "mochirong-074-loneliness",
-      "emotion": [
-        "loneliness"
-      ],
-      "intent": "accompany",
-      "label": "陪你坐坐074",
-      "file": "candidates/mochirong-074.jpeg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
-    },
-    {
-      "id": "mochirong-075-gratitude",
-      "emotion": [
-        "gratitude"
-      ],
-      "intent": "warm",
-      "label": "比心075",
-      "file": "candidates/mochirong-075.jpeg",
-      "fallback": "[麻薯表情包：比心]"
-    },
-    {
-      "id": "mochirong-076-playfulness",
-      "emotion": [
-        "playfulness"
-      ],
-      "intent": "tease",
-      "label": "眨眼076",
-      "file": "candidates/mochirong-076.jpeg",
-      "fallback": "[麻薯表情包：眨眼]"
-    },
-    {
-      "id": "mochirong-077-neutral",
+      "id": "mochirong-069-neutral",
       "emotion": [
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "探头077",
-      "file": "candidates/mochirong-077.jpeg",
+      "label": "贴纸小合集069",
+      "file": "candidates/mochirong-069.jpg",
       "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-078-sadness",
+      "id": "mochirong-070-neutral",
       "emotion": [
-        "sadness"
+        "neutral",
+        "confusion"
       ],
-      "intent": "comfort",
-      "label": "抱抱078",
-      "file": "candidates/mochirong-078.jpeg",
-      "fallback": "[麻薯表情包：抱抱]"
+      "intent": "acknowledge",
+      "label": "方方看你070",
+      "file": "candidates/mochirong-070.jpeg",
+      "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-079-anxiety",
+      "id": "mochirong-071-anxiety",
       "emotion": [
         "anxiety"
       ],
       "intent": "calm",
-      "label": "摸摸头079",
-      "file": "candidates/mochirong-079.gif",
+      "label": "水滴傻住071",
+      "file": "candidates/mochirong-071.jpeg",
       "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-080-anger",
-      "emotion": [
-        "anger"
-      ],
-      "intent": "validate",
-      "label": "一起气鼓鼓080",
-      "file": "candidates/mochirong-080.gif",
-      "fallback": "[麻薯表情包：一起气鼓鼓]"
-    },
-    {
-      "id": "mochirong-081-tiredness",
-      "emotion": [
-        "tiredness"
-      ],
-      "intent": "accompany",
-      "label": "瘫成小饼081",
-      "file": "candidates/mochirong-081.jpeg",
-      "fallback": "[麻薯表情包：瘫成小饼]"
-    },
-    {
-      "id": "mochirong-082-joy",
+      "id": "mochirong-072-joy",
       "emotion": [
         "joy"
       ],
       "intent": "celebrate",
-      "label": "开心转圈082",
-      "file": "candidates/mochirong-082.jpeg",
+      "label": "火苗生日愿望072",
+      "file": "candidates/mochirong-072.jpeg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
-      "id": "mochirong-083-pride",
+      "id": "mochirong-073-anxiety",
       "emotion": [
-        "pride"
+        "anxiety"
       ],
-      "intent": "celebrate",
-      "label": "举小旗083",
-      "file": "candidates/mochirong-083.jpeg",
-      "fallback": "[麻薯表情包：举小旗]"
+      "intent": "calm",
+      "label": "线条紧张073",
+      "file": "candidates/mochirong-073.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-084-confusion",
+      "id": "mochirong-074-sadness",
       "emotion": [
-        "confusion"
+        "sadness"
       ],
-      "intent": "clarify",
-      "label": "歪头疑惑084",
-      "file": "candidates/mochirong-084.gif",
-      "fallback": "[麻薯表情包：歪头疑惑]"
+      "intent": "comfort",
+      "label": "眼泪快掉了074",
+      "file": "candidates/mochirong-074.jpeg",
+      "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-085-loneliness",
+      "id": "mochirong-075-anxiety",
       "emotion": [
-        "loneliness"
+        "anxiety"
       ],
-      "intent": "accompany",
-      "label": "陪你坐坐085",
-      "file": "candidates/mochirong-085.jpeg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
+      "intent": "calm",
+      "label": "被子惊醒075",
+      "file": "candidates/mochirong-075.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-086-gratitude",
+      "id": "mochirong-076-sadness",
       "emotion": [
-        "gratitude"
+        "sadness"
       ],
-      "intent": "warm",
-      "label": "比心086",
-      "file": "candidates/mochirong-086.jpeg",
-      "fallback": "[麻薯表情包：比心]"
+      "intent": "comfort",
+      "label": "大眼难过076",
+      "file": "candidates/mochirong-076.jpeg",
+      "fallback": "[麻薯表情包：抱抱]"
     },
     {
-      "id": "mochirong-087-playfulness",
+      "id": "mochirong-077-playfulness",
       "emotion": [
         "playfulness"
       ],
       "intent": "tease",
-      "label": "眨眼087",
-      "file": "candidates/mochirong-087.jpeg",
+      "label": "戴眼镜装酷077",
+      "file": "candidates/mochirong-077.jpeg",
       "fallback": "[麻薯表情包：眨眼]"
+    },
+    {
+      "id": "mochirong-078-tiredness",
+      "emotion": [
+        "tiredness"
+      ],
+      "intent": "accompany",
+      "label": "纸巾躺平078",
+      "file": "candidates/mochirong-078.jpeg",
+      "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-079-loneliness",
+      "emotion": [
+        "loneliness"
+      ],
+      "intent": "accompany",
+      "label": "火堆旁陪坐079",
+      "file": "candidates/mochirong-079.gif",
+      "fallback": "[麻薯表情包：陪你坐坐]"
+    },
+    {
+      "id": "mochirong-080-playfulness",
+      "emotion": [
+        "playfulness"
+      ],
+      "intent": "tease",
+      "label": "小猫桃子贴贴080",
+      "file": "candidates/mochirong-080.gif",
+      "fallback": "[麻薯表情包：眨眼]"
+    },
+    {
+      "id": "mochirong-081-confusion",
+      "emotion": [
+        "confusion"
+      ],
+      "intent": "clarify",
+      "label": "托腮思考081",
+      "file": "candidates/mochirong-081.jpeg",
+      "fallback": "[麻薯表情包：歪头疑惑]"
+    },
+    {
+      "id": "mochirong-082-gratitude",
+      "emotion": [
+        "gratitude"
+      ],
+      "intent": "warm",
+      "label": "两只冰淇淋082",
+      "file": "candidates/mochirong-082.jpeg",
+      "fallback": "[麻薯表情包：比心]"
+    },
+    {
+      "id": "mochirong-083-sadness",
+      "emotion": [
+        "sadness"
+      ],
+      "intent": "comfort",
+      "label": "趴下缩成团083",
+      "file": "candidates/mochirong-083.jpeg",
+      "fallback": "[麻薯表情包：抱抱]"
+    },
+    {
+      "id": "mochirong-084-loneliness",
+      "emotion": [
+        "loneliness"
+      ],
+      "intent": "accompany",
+      "label": "火堆边小陪伴084",
+      "file": "candidates/mochirong-084.gif",
+      "fallback": "[麻薯表情包：陪你坐坐]"
+    },
+    {
+      "id": "mochirong-085-tiredness",
+      "emotion": [
+        "tiredness"
+      ],
+      "intent": "accompany",
+      "label": "被窝里看手机085",
+      "file": "candidates/mochirong-085.jpeg",
+      "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-086-anxiety",
+      "emotion": [
+        "anxiety"
+      ],
+      "intent": "calm",
+      "label": "人群里傻住086",
+      "file": "candidates/mochirong-086.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
+    },
+    {
+      "id": "mochirong-087-neutral",
+      "emotion": [
+        "neutral",
+        "confusion"
+      ],
+      "intent": "acknowledge",
+      "label": "两张脸看你087",
+      "file": "candidates/mochirong-087.jpeg",
+      "fallback": "[麻薯表情包：探头]"
     },
     {
       "id": "mochirong-088-neutral",
@@ -876,49 +887,50 @@
         "neutral"
       ],
       "intent": "acknowledge",
-      "label": "探头088",
+      "label": "桌边坐好088",
       "file": "candidates/mochirong-088.gif",
       "fallback": "[麻薯表情包：探头]"
     },
     {
-      "id": "mochirong-089-sadness",
+      "id": "mochirong-089-anger",
       "emotion": [
-        "sadness"
-      ],
-      "intent": "comfort",
-      "label": "抱抱089",
-      "file": "candidates/mochirong-089.gif",
-      "fallback": "[麻薯表情包：抱抱]"
-    },
-    {
-      "id": "mochirong-090-anxiety",
-      "emotion": [
-        "anxiety"
-      ],
-      "intent": "calm",
-      "label": "摸摸头090",
-      "file": "candidates/mochirong-090.gif",
-      "fallback": "[麻薯表情包：摸摸头]"
-    },
-    {
-      "id": "mochirong-091-anger",
-      "emotion": [
-        "anger"
+        "anger",
+        "pride"
       ],
       "intent": "validate",
-      "label": "一起气鼓鼓091",
-      "file": "candidates/mochirong-091.jpeg",
+      "label": "拿喇叭帮你喊089",
+      "file": "candidates/mochirong-089.jpeg",
       "fallback": "[麻薯表情包：一起气鼓鼓]"
     },
     {
-      "id": "mochirong-092-tiredness",
+      "id": "mochirong-090-tiredness",
       "emotion": [
         "tiredness"
       ],
       "intent": "accompany",
-      "label": "瘫成小饼092",
-      "file": "candidates/mochirong-092.jpeg",
+      "label": "趴桌休息090",
+      "file": "candidates/mochirong-090.gif",
       "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-091-tiredness",
+      "emotion": [
+        "tiredness"
+      ],
+      "intent": "accompany",
+      "label": "边学边喝091",
+      "file": "candidates/mochirong-091.jpeg",
+      "fallback": "[麻薯表情包：瘫成小饼]"
+    },
+    {
+      "id": "mochirong-092-confusion",
+      "emotion": [
+        "confusion"
+      ],
+      "intent": "clarify",
+      "label": "泡泡头发呆092",
+      "file": "candidates/mochirong-092.jpeg",
+      "fallback": "[麻薯表情包：歪头疑惑]"
     },
     {
       "id": "mochirong-093-joy",
@@ -926,79 +938,81 @@
         "joy"
       ],
       "intent": "celebrate",
-      "label": "开心转圈093",
+      "label": "泡泡开心脸093",
       "file": "candidates/mochirong-093.jpeg",
       "fallback": "[麻薯表情包：开心转圈]"
     },
     {
-      "id": "mochirong-094-pride",
-      "emotion": [
-        "pride"
-      ],
-      "intent": "celebrate",
-      "label": "举小旗094",
-      "file": "candidates/mochirong-094.gif",
-      "fallback": "[麻薯表情包：举小旗]"
-    },
-    {
-      "id": "mochirong-095-confusion",
-      "emotion": [
-        "confusion"
-      ],
-      "intent": "clarify",
-      "label": "歪头疑惑095",
-      "file": "candidates/mochirong-095.jpeg",
-      "fallback": "[麻薯表情包：歪头疑惑]"
-    },
-    {
-      "id": "mochirong-096-loneliness",
-      "emotion": [
-        "loneliness"
-      ],
-      "intent": "accompany",
-      "label": "陪你坐坐096",
-      "file": "candidates/mochirong-096.jpeg",
-      "fallback": "[麻薯表情包：陪你坐坐]"
-    },
-    {
-      "id": "mochirong-097-gratitude",
-      "emotion": [
-        "gratitude"
-      ],
-      "intent": "warm",
-      "label": "比心097",
-      "file": "candidates/mochirong-097.jpeg",
-      "fallback": "[麻薯表情包：比心]"
-    },
-    {
-      "id": "mochirong-098-playfulness",
+      "id": "mochirong-094-playfulness",
       "emotion": [
         "playfulness"
       ],
       "intent": "tease",
-      "label": "眨眼098",
-      "file": "candidates/mochirong-098.jpeg",
+      "label": "圆脸吐舌头094",
+      "file": "candidates/mochirong-094.gif",
       "fallback": "[麻薯表情包：眨眼]"
     },
     {
-      "id": "mochirong-099-neutral",
+      "id": "mochirong-095-anxiety",
       "emotion": [
-        "neutral"
+        "anxiety"
       ],
-      "intent": "acknowledge",
-      "label": "探头099",
-      "file": "candidates/mochirong-099.gif",
-      "fallback": "[麻薯表情包：探头]"
+      "intent": "calm",
+      "label": "枕头里紧张095",
+      "file": "candidates/mochirong-095.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
     },
     {
-      "id": "mochirong-100-sadness",
+      "id": "mochirong-096-anxiety",
+      "emotion": [
+        "anxiety",
+        "sadness"
+      ],
+      "intent": "calm",
+      "label": "风中凌乱096",
+      "file": "candidates/mochirong-096.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
+    },
+    {
+      "id": "mochirong-097-sadness",
       "emotion": [
         "sadness"
       ],
       "intent": "comfort",
-      "label": "抱抱100",
-      "file": "candidates/mochirong-100.gif",
+      "label": "躺着掉电097",
+      "file": "candidates/mochirong-097.jpeg",
       "fallback": "[麻薯表情包：抱抱]"
+    },
+    {
+      "id": "mochirong-098-anxiety",
+      "emotion": [
+        "anxiety"
+      ],
+      "intent": "calm",
+      "label": "被风吹跑098",
+      "file": "candidates/mochirong-098.jpeg",
+      "fallback": "[麻薯表情包：摸摸头]"
+    },
+    {
+      "id": "mochirong-099-anger",
+      "emotion": [
+        "anger",
+        "pride"
+      ],
+      "intent": "validate",
+      "label": "喇叭加油099",
+      "file": "candidates/mochirong-099.jpeg",
+      "fallback": "[麻薯表情包：一起气鼓鼓]"
+    },
+    {
+      "id": "mochirong-100-confusion",
+      "emotion": [
+        "confusion"
+      ],
+      "intent": "clarify",
+      "label": "问号发呆100",
+      "file": "candidates/mochirong-100.jpeg",
+      "fallback": "[麻薯表情包：歪头疑惑]"
     }
   ]
 }
