@@ -1,0 +1,293 @@
+{
+  "accepted": [
+    {
+      "file": "candidates/mashu-candidate-001.png",
+      "score": 90.0,
+      "url": "https://q1.itc.cn/images01/20250606/da360dd13dc344b2ad632a17303cd8db.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-002.png",
+      "score": 89.37,
+      "url": "https://q9.itc.cn/images01/20250606/014e56a76ae0438bb103b58b88fb591c.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-003.png",
+      "score": 89.93,
+      "url": "https://q9.itc.cn/images01/20250606/8f84b028d2dc441ab9979da81606c951.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-004.png",
+      "score": 82.47,
+      "url": "https://q2.itc.cn/images01/20250606/61d926f588054fe6abda3db2ef38e571.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-005.png",
+      "score": 85.4,
+      "url": "https://q9.itc.cn/images01/20250606/8b3a5c97fddf4ddc90e8d974ef3cdb37.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-006.png",
+      "score": 73.11,
+      "url": "https://q4.itc.cn/images01/20250606/451297570bae404aa181970b43be001e.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-007.png",
+      "score": 64.52,
+      "url": "https://q8.itc.cn/images01/20250606/e2df2526bf744325804983a7474d260a.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-008.png",
+      "score": 85.97,
+      "url": "https://q3.itc.cn/images01/20250606/08b30cfbeb5d4222b93ce95e3bca139d.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-009.png",
+      "score": 81.66,
+      "url": "https://q8.itc.cn/images01/20250606/37e188292252476894ae38721d209b90.png",
+      "page": "https://www.sohu.com/a/902069413_121253246",
+      "query": "direct-sohu-mochirong"
+    },
+    {
+      "file": "candidates/mashu-candidate-010.png",
+      "score": 46.86,
+      "url": "https://mcdonaldmenus.us/wp-content/uploads/2024/11/Happy-Meal-Menu.webp",
+      "page": "https://mcdonaldmenus.us/mcdonalds-happy-meal-menu/",
+      "query": "mochirong sticker"
+    },
+    {
+      "file": "candidates/mashu-candidate-011.png",
+      "score": 56.1,
+      "url": "https://www.joeacevedo.com/images/customzone/customcon/rourk2017/j-04-Jason-of-Star-Command-FRONT.jpg",
+      "page": "https://www.joeacevedo.com/customzone/customcon-events/CustomCon44/customcon44-jason/index.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "file": "candidates/mashu-candidate-012.png",
+      "score": 75.57,
+      "url": "https://www.whimsycoloring.com/wp-content/uploads/2025/07/Sheriff-Papillon-from-Babybus-coloring-sheet-500x500.jpg",
+      "page": "https://www.whimsycoloring.com/babybus-coloring-pages/",
+      "query": "mochirong gif"
+    }
+  ],
+  "rejected_sample": [
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmtMrBwFIUkNzcDkI5cAaIKXqWOyS7cS-bZhKQ4BPsOoOIV7ZQZ2z_zsO8koE_a16sbtYHKuSM9RxFaLzBAoDzo3m-Y0zFWUdqDlVS3sox58_rzJV4Q_0pAraPag-QPdVbqqRN4t8Zg5eWd32uFpucYj3i9J0ZS_Hn0RiJKzWep9aPEDcgvOC3FrHp/w1200-h630-p-k-no-nu/Star Command.jpg",
+      "page": "https://ripjaggerdojo.blogspot.com/2023/02/jason-of-star-command-complete-series.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 32.02,
+      "reason": "below-threshold",
+      "url": "https://i.ytimg.com/vi/R4ag5z4klEc/hqdefault.jpg",
+      "page": "https://www.youtube.com/watch?v=R4ag5z4klEc",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://fbi.cults3d.com/uploaders/16257155/illustration-file/a62dfb2d-934a-49df-888e-4bd7471053a5/20210925_120622.jpg",
+      "page": "https://cults3d.com/en/3d-model/various/jason-of-star-command-wiki-w-1-k-1-robot",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://media.printables.com/media/prints/775590/images/6026641_ee38e9d0-4b1c-4361-ada3-d49701500e02_429fb7fb-cb0d-4aa5-9fbe-57a66c5d382c/large_display_4995fc00-3e89-4e25-9c72-7e53ab5e66dd_775590.jpg",
+      "page": "https://www.printables.com/model/775590-walking-wiki-robot-from-jason-of-star-command-seas",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://fbi.cults3d.com/uploaders/17518409/illustration-file/2a80d8da-ae1f-4b3d-9c59-963fe46d30a9/ca4ffca4-cc47-483f-b0a1-41858a8e01ca.jpg",
+      "page": "https://cults3d.com/en/3d-model/game/walking-wiki-robot-from-jason-of-star-command-season-2",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 2.32,
+      "reason": "below-threshold",
+      "url": "https://m.media-amazon.com/images/M/MV5BMTU0Njc0NzkxNl5BMl5BanBnXkFtZTcwOTc5Nzc0MQ@@._V1_QL75_UX500_CR0,207,500,281_.jpg",
+      "page": "https://www.imdb.com/title/tt0078631/episodes/",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 16.17,
+      "reason": "below-threshold",
+      "url": "https://i.pinimg.com/736x/ea/40/9d/ea409deb814b3998caffebaa336ab281--space-ship-spacecraft.jpg",
+      "page": "https://www.pinterest.com/pin/569775790332997337/",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 2.73,
+      "reason": "below-threshold",
+      "url": "https://i.ytimg.com/vi/mojkKz1WS4c/maxresdefault.jpg",
+      "page": "https://www.youtube.com/watch?v=mojkKz1WS4c",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://i.dailymail.co.uk/i/pix/2013/09/27/article-2434760-184F8FE100000578-774_634x673.jpg",
+      "page": "https://www.dailymail.co.uk/news/article-2434760/Hard-act-swallow-Vet-x-rays-reveal-bizarre-impossible-objects-wolfed-hungry-pets.html",
+      "query": "Mochirong 麻薯小人"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://image.shutterstock.com/image-photo/portrait-lovely-girls-looking-camera-260nw-91219028.jpg",
+      "page": "https://www.shutterstock.com/es/image-photo/row-pupils-looking-teacher-cute-girl-92821288",
+      "query": "麻薯小人 无字 表情包"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://thumbs.worthpoint.com/zoom/images1/1/0417/08/jason-star-command-portrait-original_1_ae9c2951d127bbdee05dc267a9035237.jpg",
+      "page": "https://www.worthpoint.com/worthopedia/jason-star-command-portrait-original-1862436225",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 15.2,
+      "reason": "below-threshold",
+      "url": "https://m.media-amazon.com/images/M/MV5BMjIwMzg5NDAwN15BMl5BanBnXkFtZTgwMzE4MjYyMjE@._V1_.jpg",
+      "page": "https://www.imdb.com/name/nm0217301/mediaviewer/rm31441664",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": null,
+      "reason": "download-failed",
+      "url": "https://images.cults3d.com/o7Mm0L-KtsppTNYlU26KsP6syug=/516x516/https://files.cults3d.com/uploaders/16257155/illustration-file/1dea2418-b566-470e-8083-bb33e0c4d3a5/Wiki-front.jpg",
+      "page": "https://cults3d.com/en/3d-model/various/jason-of-star-command-wiki-w-1-k-1-robot",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 1.29,
+      "reason": "below-threshold",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMsdMoxfryBxDvnmQ2Ph0SN_QilbkXp9NtEp_mThwtzkgJCGsTMmoFBFXOoO7-k2JyodO7hMLSqI0YILGAZloMqrEvrq_D9gZt2w0tXWcIt7HPrZOu-T-9N8sJGJd8hcCA78cDBtKzxnw/s1600/Jason_03.jpg",
+      "page": "https://space1970.blogspot.com/2009/12/jason-of-star-command-1978-79.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 25.39,
+      "reason": "below-threshold",
+      "url": "https://i.pinimg.com/736x/c7/ca/82/c7ca82a4f8235079d7bfedf3b66dd373--s-style-saturday-morning.jpg",
+      "page": "https://www.pinterest.com/thesteedzone/space-academy-jason-of-star-command/",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 7.05,
+      "reason": "below-threshold",
+      "url": "https://www.betaseries.com/es/show/jason-of-star-command/image",
+      "page": "https://www.betaseries.com/es/show/jason-of-star-command",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 10.56,
+      "reason": "below-threshold",
+      "url": "https://cdn.inspireuplift.com/uploads/images/seller_products/1698594177_OX-20231028-5087_JasonofStarCommand-Season2Cast5762.jpg",
+      "page": "https://www.inspireuplift.com/Jason-Of-Star-Command-Season-2-Cast-/iu/6362986",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 12.44,
+      "reason": "below-threshold",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjFMGi3bu9JpsEgFiAChPmB-gTMvVXZBnXey-4kWTVZ-XkoQ1krI99FybVzAauysxwWPHt5AgJoF_mKRaK957K3RYwoi37yGwfg8otEwKC-rHo104vE1ugYNdWLGv6Aq76j58iBBQB8H8/s1600/Jason_06.jpg",
+      "page": "https://space1970.blogspot.com/2009/12/jason-of-star-command-1978-79.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 8.8,
+      "reason": "below-threshold",
+      "url": "https://3.bp.blogspot.com/-Sz13vx2ddiY/Vdt0-GnkdXI/AAAAAAABAAA/R-L-oDmheiY/s1600/cry6.png",
+      "page": "https://reflectionsonfilmandtelevision.blogspot.com/2015/10/saturday-morning-cult-tv-blogging-jason_17.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 12.88,
+      "reason": "below-threshold",
+      "url": "https://ichef.bbci.co.uk/news/976/cpsprodpb/81E6/production/_131145233_gettyimages-1252628616.jpg",
+      "page": "https://www.bbc.com/news/world-asia-66874163?at_bbc_team=editorial",
+      "query": "mochirong 表情包"
+    },
+    {
+      "score": 6.72,
+      "reason": "below-threshold",
+      "url": "https://2.bp.blogspot.com/-_ynIlrd6wJM/VgaYEBaK1lI/AAAAAAABBmU/fG5HI6BMg9s/s1600/creature3.png",
+      "page": "https://reflectionsonfilmandtelevision.blogspot.com/2015/12/saturday-morning-cult-tv-blogging-jason_26.html",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 9.78,
+      "reason": "below-threshold",
+      "url": "http://www.davblog.fr/jasonofstarcommand1978.jpg",
+      "page": "https://davblog.com/index.php/1590-jason-of-star-command-la-serie-televisee-de-1978",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 1.94,
+      "reason": "below-threshold",
+      "url": "http://animatedviews.com/wp-content/uploads/2007/07/jason8.jpg",
+      "page": "https://animatedviews.com/2007/jason-of-star-command-the-complete-series/",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 5.33,
+      "reason": "below-threshold",
+      "url": "https://yogarove.com/wp-content/uploads/2019/02/shoulderstand-partner-yoga.jpg",
+      "page": "https://yogarove.com/yoga-poses-for-two-people/",
+      "query": "麻薯小人 表情包"
+    },
+    {
+      "score": 16.54,
+      "reason": "below-threshold",
+      "url": "https://kettlebellsworkouts.com/wp-content/uploads/2019/02/19-Alternating_Chest_Hugs.png",
+      "page": "https://kettlebellsworkouts.com/shoulder-mobility-warm-up-exercises/",
+      "query": "Mochirong麻薯小人无字表情包"
+    },
+    {
+      "score": 12.87,
+      "reason": "below-threshold",
+      "url": "http://animatedviews.com/wp-content/uploads/2007/07/jason10.jpg",
+      "page": "https://animatedviews.com/2007/jason-of-star-command-the-complete-series/",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 8.58,
+      "reason": "below-threshold",
+      "url": "https://cdn.cinematerial.com/p/297x/cytz85t8/jason-of-star-command-movie-cover-md.jpg?v=1569561053",
+      "page": "https://www.cinematerial.com/tv/jason-of-star-command-i78631",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 4.79,
+      "reason": "below-threshold",
+      "url": "https://media.gettyimages.com/id/1244884389/photo/jason-of-star-command.jpg?s=1024x1024&w=gi&k=20&c=ZDUZr4PtuYbkLBc_CPym5uVq8ZFg6imI7jjgbUres6M=",
+      "page": "https://www.gettyimages.com/detail/news-photo/jason-of-star-command-a-cbs-saturday-morning-live-action-news-photo/1244884389",
+      "query": "mochirong emoji"
+    },
+    {
+      "score": 4.99,
+      "reason": "below-threshold",
+      "url": "https://i.ebayimg.com/images/g/60kAAOSwIC9leRUL/s-l1600.jpg",
+      "page": "https://www.ebay.com/itm/404678302190",
+      "query": "mochirong emoji"
+    }
+  ]
+}
