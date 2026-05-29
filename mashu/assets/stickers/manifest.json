@@ -1013,6 +1013,160 @@
       "label": "问号发呆100",
       "file": "candidates/薯门-问号发呆-100.jpeg",
       "fallback": "[麻薯表情包：歪头疑惑]"
+    },
+    {
+      "id": "mochirong-101-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应101",
+      "file": "candidates/薯门-小反应-101.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-102-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应102",
+      "file": "candidates/薯门-小反应-102.jpeg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-103-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应103",
+      "file": "candidates/薯门-小反应-103.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-104-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应104",
+      "file": "candidates/薯门-小反应-104.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-105-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应105",
+      "file": "candidates/薯门-小反应-105.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-106-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应106",
+      "file": "candidates/薯门-小反应-106.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-107-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应107",
+      "file": "candidates/薯门-小反应-107.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-108-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应108",
+      "file": "candidates/薯门-小反应-108.jpg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-109-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应109",
+      "file": "candidates/薯门-小反应-109.jpeg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-110-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应110",
+      "file": "candidates/薯门-小反应-110.gif",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-111-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应111",
+      "file": "candidates/薯门-小反应-111.jpeg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-112-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应112",
+      "file": "candidates/薯门-小反应-112.jpg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-113-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应113",
+      "file": "candidates/薯门-小反应-113.jpeg",
+      "fallback": "[麻薯表情包:探头]"
+    },
+    {
+      "id": "mochirong-114-neutral",
+      "emotion": [
+        "neutral",
+        "playfulness"
+      ],
+      "intent": "acknowledge",
+      "label": "薯门小反应114",
+      "file": "candidates/薯门-小反应-114.jpg",
+      "fallback": "[麻薯表情包:探头]"
     }
   ]
 }
