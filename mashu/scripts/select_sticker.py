@@ -13,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "assets" / "stickers" / "manifest.json"
 STICKER_DIR = ROOT / "assets" / "stickers"
+EMPTY_FALLBACK = "[麻薯君表情包：等待导入 Mashimaro 正版匹配素材]"
 
 
 def load_stickers() -> list[dict]:
@@ -21,6 +22,13 @@ def load_stickers() -> list[dict]:
 
 
 def choose_from(stickers: list[dict], strategy: str, rng: random.Random) -> dict:
+    if not stickers:
+        return {
+            "id": "mashimaro-empty",
+            "label": "等待导入 Mashimaro",
+            "file": "",
+            "fallback": EMPTY_FALLBACK,
+        }
     existing = [sticker for sticker in stickers if (STICKER_DIR / sticker["file"]).exists()]
     pool = existing or stickers
     if strategy == "first":
@@ -76,17 +84,17 @@ def choose_sticker(
 
 
 def render(sticker: dict, output_format: str) -> str:
-    image_path = STICKER_DIR / sticker["file"]
+    image_path = STICKER_DIR / sticker["file"] if sticker.get("file") else None
     if output_format == "json":
         payload = {
             "id": sticker["id"],
             "label": sticker["label"],
-            "path": str(image_path) if image_path.exists() else None,
+            "path": str(image_path) if image_path and image_path.exists() else None,
             "fallback": sticker["fallback"],
         }
         return json.dumps(payload, ensure_ascii=False)
 
-    if image_path.exists():
+    if image_path and image_path.exists():
         label = f"麻薯表情包：{sticker['label']}"
         src = image_path.as_posix()
         if output_format == "html":
