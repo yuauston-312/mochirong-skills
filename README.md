@@ -51,6 +51,7 @@ mashu/
     mashu-voice.md
     sticker-style.md
   scripts/
+    festival_greeting.py
     select_sticker.py
 ```
 
