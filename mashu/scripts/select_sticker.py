@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "assets" / "stickers" / "manifest.json"
 STICKER_DIR = ROOT / "assets" / "stickers"
-EMPTY_FALLBACK = "[麻薯君表情包：等待导入 Mashimaro 正版匹配素材]"
+EMPTY_FALLBACK = "[麻薯表情包：等待导入匹配素材]"
 
 
 def load_stickers() -> list[dict]:
@@ -24,8 +24,8 @@ def load_stickers() -> list[dict]:
 def choose_from(stickers: list[dict], strategy: str, rng: random.Random) -> dict:
     if not stickers:
         return {
-            "id": "mashimaro-empty",
-            "label": "等待导入 Mashimaro",
+            "id": "mashu-empty",
+            "label": "等待导入素材",
             "file": "",
             "fallback": EMPTY_FALLBACK,
         }

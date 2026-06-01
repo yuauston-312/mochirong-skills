@@ -1,6 +1,6 @@
-# Mashimaro Mashu Skill
+# Mochirong Mashu Skill
 
-A Codex skill that replies in a soft “麻薯” emotional-support style and attaches one matching Mashimaro / MashiMaro (`마시마로`, `流氓兔`, `麻薯君`) sticker reaction when approved assets are available.
+A Codex skill that replies in a soft “麻薯” emotional-support style and attaches one matching Mochirong-style sticker reaction to each user-facing reply.
 
 ## Install
 
@@ -33,7 +33,7 @@ Use mashu skill.
 - Infers the user's emotional state.
 - Replies in a warm, soft, lightly playful 麻薯 tone.
 - Selects exactly one sticker reaction per reply.
-- Uses bundled Mashimaro-only sticker assets from `mashu/assets/stickers/candidates/`.
+- Uses bundled Mochirong-style sticker assets from `mashu/assets/stickers/candidates/`.
 - Falls back to a compact text sticker label when no matching image is available.
 
 ## Repository Structure
@@ -45,7 +45,7 @@ mashu/
   assets/stickers/
     candidates/
     manifest.json
-    mashimaro-contact-sheet.jpg
+    mochirong-contact-sheet.jpg
   references/
     emotion-map.md
     mashu-voice.md
@@ -57,7 +57,7 @@ mashu/
 
 ## Preview
 
-See `mashu/assets/stickers/mashimaro-contact-sheet.jpg` for the current sticker contact sheet when approved Mashimaro assets exist.
+See `mashu/assets/stickers/mochirong-contact-sheet.jpg` for the current sticker contact sheet.
 
 ## Validate
 
